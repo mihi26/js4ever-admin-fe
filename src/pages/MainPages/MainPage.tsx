@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Header from '@/components/custom/Header.tsx'
-import Sidebar from '@/components/custom/Sidebar.tsx'
+import Header from '@/components/custom/Header'
+import Sidebar from '@/components/custom/Sidebar'
 
 const MainPage = () => {
   return (

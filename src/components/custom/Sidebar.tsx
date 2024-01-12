@@ -1,8 +1,8 @@
 import { Fragment, useState } from "react"
 import { useDispatch } from "react-redux"
 import { useLocation, useNavigate } from "react-router-dom"
-import { AvatarFallback, AvatarImage } from "../ui/avatar.js"
-import { Avatar } from "../ui/avatar.tsx"
+import { AvatarFallback, AvatarImage } from "../ui/avatar"
+import { Avatar } from "../ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,

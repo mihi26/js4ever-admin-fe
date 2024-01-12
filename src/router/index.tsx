@@ -1,6 +1,6 @@
 import App from "@/App.js"
-import HomePage from "@/pages/MainPages/HomePage.tsx"
-import MainPage from "@/pages/MainPages/MainPage.tsx"
+import HomePage from "@/pages/MainPages/HomePage"
+import MainPage from "@/pages/MainPages/MainPage"
 
 import {
   createBrowserRouter,

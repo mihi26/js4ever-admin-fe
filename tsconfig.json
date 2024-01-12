@@ -5,17 +5,14 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
-
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-
-    /* Bundler mode */
-    "moduleResolution": "Node16",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "paths": {
+			"@/*": ["./src/*"]
+		},
     "noEmit": true,
     "jsx": "react-jsx",
 
@@ -23,7 +20,8 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
